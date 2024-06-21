@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <div id="loader" class="h-screen fixed w-screen bg-[#E2BBE9] z-[999] ">
+        <div id="initialhead" class="h-full w-full flex gap-[1vw] justify-center items-center overflow-hidden">
+            <h1 id="hello" class="text-[#1A2130] text-[2vw]" >hello!</h1>
+            <div id="name" class=" h-[4vw] w-fit  flex flex-col items-center overflow-hidden">
+                <h1 id="firstname" class="text-[#1A2130] w-full h-full text-[2.7vw] flex justify-center items-center ">Flavia</h1>
+                <h1 id="nickname" class="text-[#1A2130] w-full h-full text-[2vw] flex justify-center items-center ">(aka Bittuuu)</h1>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div id="page1" class="h-screen w-screen bg-[#E8C5E5] opacity-[1]">
+            <div id="bottomtext" class="absolute w-[5vw] top-[63%] left-[65%] z-[-1]">
+                <h1>Check out the top left corner!</h1>
+            </div>
+            <div id="uppertext" class="absolute w-[10vw] top-[5%] left-[2%] z-[-1]">
+                <h1>It look like a simple webpage saying Happy Birthday, but I have something to tell you. Scroll down</h1>
+            </div>
+            <div id="animations" class="absolute h-full w-full z-[-1]  flex justify-center items-center">
+                <div id="animation" class="h-[75%] w-[65%] z-[-1] overflow-hidden flex flex-col">
+                    <div class="photos w-full h-full shrink-0"><img id="image1" class="w-full h-full object-cover opacity-[0.7]" src="./picture2.jpeg" alt=""></div>
+                    <div class="photos w-full h-full shrink-0"><img id="image1" class="w-full h-full object-cover opacity-[0.7]" src="./picture4.jpeg" alt=""></div>
+                    <div class="photos w-full h-full shrink-0"><img id="image1" class="w-full h-full object-cover opacity-[0.7]" src="./picture3.jpeg" alt=""></div>
+                    <div class="photos w-full h-full shrink-0"><img id="image1" class="w-full h-full object-cover opacity-[0.7]" src="./picture1.jpeg" alt=""></div>
+                </div>
+            </div>
+            <div id="messages" class="h-full w-full flex  justify-center items-center">
+                <div id="message" class="h-[70%] w-[60%] gap-[0] overflow-hidden flex flex-col">
+                    <div class="textdiv w-full h-full flex  justify-center items-center  shrink-0"><h1  class="text-[6vw] text-[#1A2130] ">Happy Birthday</h1></div>
+                    <div class="textdiv w-full h-full shrink-0 flex justify-center items-center"><h1  class="text-[4vw] text-[#1A2130] leading-[1]  ">But it's not just a simple webpage.</h1></div>
+                    <div class="textdiv w-full h-full flex  justify-center items-center shrink-0"><h1  class="text-[4vw] text-[#1A2130] leading-[1]  ">This is a special gift for you from all of us.</h1></div>
+                    <div class="textdiv w-full h-full flex  justify-center items-center shrink-0"><h1  class=" text-[3vw] text-[#1A2130] leading-[1] ">May God bless you . May joy fill every aspect of your life, bringing you happiness and peace.</h1></div>
+                    <div class="textdiv w-full h-full flex  justify-center items-center shrink-0"><h1  class=" text-[6vw] text-[#1A2130] leading-[1] ">Made with Love by Felix</h1></div>
+                    <div class="textdiv w-full h-full flex  justify-center items-center shrink-0"><h1  class=" text-[6vw] text-[#1A2130] leading-[1] ">Enjoy your birthday!</h1></div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="page2" class="h-screen w-screen"></div> -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="script.js"></script> 
+</body>
+</html>

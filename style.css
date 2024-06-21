@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'outfit';
+    src: url("./Outfit-Bold.woff2");
+}
+@font-face {
+    font-family: 'outfitlight';
+    src: url("./Outfit-Regular.woff2");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'outfit';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #E8C5E5;
+}
+#animation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photos{
+    position: relative;
+    transform: translateY(100%);
+}
+.textdiv{
+    position: relative;
+    transform: translateY(0%);
+}
+#bottomtext, #upperpart{
+    font-family: 'outfitlight';
+}
+
